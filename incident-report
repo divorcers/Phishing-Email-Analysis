@@ -1,0 +1,39 @@
+# Phishing Email Investigation
+
+## 1. Project Overview
+Investigate a fictional suspicious email to identify potential phishing indicators.
+
+**Project type:** Cybersecurity incident analysis
+
+**Date:** 15 October 2026
+
+**Tools:** Visual Studio Code, Markdown
+
+## 2. Scenario
+An employee receives an email claiming their account will be deleted
+unless they verify their identity within 24 hours.
+
+## 3. Indicators Identified
+- Urgency and pressure: The email threatens account deletion within 24 hours, pressuring the employee to act quickly.
+- Suspicious sender: The sender claims to be IT Support, but the displayed email domain needs to be verified against the organisation's genuine domain.
+- Unverified link: The destination uses a different domain from the apparent sender. This requires investigation before the link can be trusted.
+- Credential harvesting risk: The request to verify identity could lead the employee to a fake login page designed to steal credentials
+
+## 4. Potential Security Risks
+- Account compromise: An employee could disclose their login credentials.
+- Unauthorised access: An attacker could access company systems.
+- Data exposure: Information accessible through the compromised account could be exposed.
+- Business disruption: The organisation may need to investigate and secure affected accounts.
+
+## 5. Recommended Response
+- Do not click the link or enter any credentials.
+- Report the email to the organisation's IT or security team.
+- Verify the message using a trusted contact method, not the details in the email.
+- If credentials have already been entered, notify IT immediately and follow its account-security instructions.
+
+## 6. Conclusion
+The email contains multiple indicators consistent with a potential phishing attempt, including urgency, an unverified sender and a suspicious link. The message should be treated as suspicious and reported for further investigation.
+
+## 7. Scope and Limitations
+This is a fictional training scenario. No real emails, accounts,
+credentials or suspicious links were accessed.
